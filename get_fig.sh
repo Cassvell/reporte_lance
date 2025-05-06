@@ -14,7 +14,7 @@ declare -a st=("coe" "teo" "itu" "mex" "pla")
 declare -a station=("coeneo" "teoloyucan" "iturbide" "mexico" "planetary")
 read -p "Enter the initial date with the format (yyyymmdd): " idate
 
-local_path="$HOME/google_sync/reporte_lance/"
+local_path="$HOME/reporte_lance/"
 
 for i in ${!station[@]};do
 
